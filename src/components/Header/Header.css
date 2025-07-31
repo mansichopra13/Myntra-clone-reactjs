@@ -1,0 +1,54 @@
+
+
+.header-main{
+  background: whitesmoke
+   /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start; */
+}
+
+.offer1 img{
+    margin: 20px;
+    margin-bottom: 0;
+        height: 100px;
+    width: 95vw;
+}
+.main-img img{
+    margin-top: 0;
+    height: 400px;
+    width: 92vw;
+    margin-left: 50px;
+    margin-bottom: 0;
+     /* margin-right: 10px; */
+}
+.flip img{
+    width: 93vw;
+    height: 120px;
+    margin-left: 40px;
+}
+.giva-indo{
+    display: flex;
+    justify-content: center;
+    margin: 0px 55px;
+}
+.giva-indo img{
+    height: 160px;
+    width: 46vw;
+}
+.best-style img{
+    height: 100px;
+    width: 1250px;
+    /* margin: 0 70px; */
+    margin: 0px 15px 0px 50px;
+}
+.y img{
+    width: 300PX;
+}
+.ytrace{
+    margin-right: 60px;
+    padding: 25px;
+}
+.more-offers img{   
+    height: 200px;
+    width: 1350px;
+}

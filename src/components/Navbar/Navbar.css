@@ -1,0 +1,118 @@
+.navbar{
+     display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    padding: 10px 20px;
+    background-color: white;
+    color: rgb(7, 7, 7);
+    width: 100%;
+    height: 80px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.navbar-left{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.navbar-right{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo img{
+    height: 40px;
+    width: 60px;
+
+    
+}
+.nav-links ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    /* justify-content: space-evenly; */
+    /* margin-left: 40px; */
+}
+.outer li{
+   
+    color: black;
+   
+    font-size: 12px;
+    font-weight: 600;
+}
+.search-bar input{
+    height: 35px;
+    width: 275px;
+    padding: 10px;
+     background: #eeeaea;
+   border-radius: 5px;
+   border: none;
+}
+.search-bar input:focus{
+    color: black;
+   
+}
+.profile-icon{
+   font-size: 20px;
+   font-weight: 600;
+}
+.wishlist-icon{
+   font-size: 20px;
+   font-weight: 600;
+}
+.bag-icon{
+   font-size: 20px;
+   font-weight: 600;
+}
+.navbar-right p{
+    font-size: 13px;
+    font-weight: 600;
+}
+sup{
+    color: rgb(235, 56, 145);
+}
+/* .dropdown li{
+    display: none;
+} */
+.nav-item:hover .dropdown li{
+    display: block;
+    
+    
+}
+
+.nav-item{
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  display: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  z-index: 10;
+  min-width: 200px;
+}
+.dropdown li:hover {
+  background-color: #f2f2f2;
+}
+.nav-item:hover .dropdown {
+  display: block;
+}
+.dropdown li {
+  padding: 8px 16px;
+  white-space: nowrap;
+  font-size: 14px;
+  color: #000;
+  display: none;
+ }
+

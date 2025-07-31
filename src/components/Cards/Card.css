@@ -1,0 +1,14 @@
+.card-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  overflow: hidden;
+  margin: auto;
+  /* margin: 25px; */
+}
+.card img{
+    height: 250px;
+    width: 250px;
+    margin: 5px;
+}
