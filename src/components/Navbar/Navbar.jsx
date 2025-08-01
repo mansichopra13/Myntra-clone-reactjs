@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect ,useState} from 'react'
 // import {logo} from '../../assets/logo.png';
 //  // Assuming you have a logo image in assets
 // import {logo} from '../../assets/logo.png';
@@ -10,6 +10,13 @@ import {Link} from 'react-router-dom'
 
 
 const Navbar = () => {
+
+    const[menu,setMenu]=useState("MEN");
+
+    useEffect(()=>{
+
+    },[]);
+
   return (
     <>
          <div className='navbar'>
@@ -20,60 +27,13 @@ const Navbar = () => {
             </div>
             <div className="nav-links">
                <ul className='outer' >
-                <li className='nav-item'>MEN
-                    <ul className='dropdown'>
-                        <li>Topwear</li>
-                        <li>Bottomwear</li>
-                        <li>Footwear</li>
-                        <li>Inner & Sleepwear</li>
-                        <li>Indian and festive wear</li>
-                    </ul>
-                </li>
-                <li className='nav-item'>WOMEN
-                    <ul className='dropdown'>
-                        <li>Topwear</li>
-                        <li>Bottomwear</li>
-                        <li>Footwear</li>
-                        <li>Inner & Sleepwear</li>
-                        <li>Indian and festive wear</li>
-                    </ul>
-                </li>
-                <li className='nav-item'>KIDS
-                    <ul className='dropdown'>
-                        <li>Topwear</li>
-                        <li>Bottomwear</li>
-                        <li>Footwear</li>
-                        <li>Inner & Sleepwear</li>
-                        <li>Indian and festive wear</li>
-                    </ul>
-                </li>
-                <li className='nav-item'>DECOR
-                    <ul className='dropdown'>
-                        <li>Topwear</li>
-                        <li>Bottomwear</li>
-                        <li>Footwear</li>
-                        <li>Inner & Sleepwear</li>
-                        <li>Indian and festive wear</li>
-                    </ul>
-                </li>
-                <li className='nav-item'>BEAUTY
-                    <ul className='dropdown'>
-                        <li>Topwear</li>
-                        <li>Bottomwear</li>
-                        <li>Footwear</li>
-                        <li>Inner & Sleepwear</li>
-                        <li>Indian and festive wear</li>
-                    </ul>
-                </li>
-                <li className='nav-item'>GENZ
-                    <ul className='dropdown'>
-                        <li>Topwear</li>
-                        <li>Bottomwear</li>
-                        <li>Footwear</li>
-                        <li>Inner & Sleepwear</li>
-                        <li>Indian and festive wear</li>
-                    </ul>
-                </li>
+                <li onClick={()=>{setMenu("men")}} > <Link style={{textDecoration:'none'}} to="/mens"> MEN </Link>{menu==="men" ? <hr/> : <></> }</li>
+                <li onClick={()=>{setMenu("women")}} > <Link style={{textDecoration:'none'}} to="/womens"> WOMEN </Link> {menu==="women" ? <hr/> : <></> }</li>
+                <li onClick={()=>{setMenu("kids")}} > <Link style={{textDecoration:'none'}} to="/kids"> KIDS </Link> {menu==="kids" ? <hr/> : <></> }</li>               
+                <li onClick={()=>{setMenu("decor")}} > <Link style={{textDecoration:'none'}} to="/decor"> DECOR </Link> {menu==="decor" ? <hr/> : <></> }</li>               
+                <li onClick={()=>{setMenu("beauty")}} > <Link style={{textDecoration:'none'}} to="/beauty"> BEAUTY </Link> {menu==="beauty" ? <hr/> : <></> }</li>            
+                <li onClick={()=>{setMenu("genz")}} > <Link style={{textDecoration:'none'}} to="/genz"> GENZ </Link> {menu==="genz" ? <hr/> : <></> }</li>
+
                 <li className='nav-item'>STUDIO<sup><b>NEW</b>
                 </sup>
                 <ul className='dropdown'>
@@ -101,7 +61,8 @@ const Navbar = () => {
                <FaRegHeart /><p>Wishlist</p>
             </div>
             <div className="bag-icon">
-               <BsHandbag /><p>Bag</p>
+                <Link to={'/cart'}><BsHandbag /></Link>
+               <p>Bag</p>
             </div>
             
         </div>

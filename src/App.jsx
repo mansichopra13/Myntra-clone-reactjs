@@ -7,6 +7,12 @@ import { onAuthStateChanged } from 'firebase/auth'
 import {ToastContainer,toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { auth } from './Firbase' 
+import ShopCategory from './pages/ShopCategory/ShopCategory';
+import men_banner from './assets/all/banner_mens.png';
+import women_banner from './assets/all/banner_women.png'
+import kid_banner from './assets/all/banner_kids.png'
+import Cart from './pages/Cart/Cart'
+import Footer from './components/Footer/Footer'
 
 
 const Approutes = () => {
@@ -32,13 +38,26 @@ const Approutes = () => {
  
   return (
     <>
+    {/* <BrowserRouter> */}
     
       <Navbar />
 
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/login' element={<Login/>}/>
+        <Route path='/mens' element={<ShopCategory  banner={men_banner} category="men"/>}/>
+        <Route path='/womens' element={<ShopCategory  banner={women_banner} category="women"/>}/>
+        <Route path='/kids' element={<ShopCategory  banner={kid_banner} category="kid"/>}/>
+        {/* <Route path='/decor' element={<ShopCategory category="decor"/>}/>
+        <Route path='/beauty' element={<ShopCategory category="beauty"/>}/>
+        <Route path='/genz' element={<ShopCategory category="genz"/>}/> */}
+        {/* <Route path='/product' element={<Product/>}/>
+        <Route path=':productId' element={<Product/>}/> */}
+        <Route path='/cart' element={<Cart/>}/>
+
       </Routes>
+      <Footer/>
+      {/* </BrowserRouter> */}
     </>
   );
 };
