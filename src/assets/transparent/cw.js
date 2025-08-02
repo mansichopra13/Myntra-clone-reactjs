@@ -11,45 +11,83 @@ import cw10 from '../../assets/transparent/cw10.png';
 
 
 const wcard = [
-    {
+    {   id:52,
         image:cw1,
-        // name:"Stylish"
+        name:"Shirt",
+        new_price: 50.0,
+        old_price: 80.5,
+        category:"mens",
     },
-    {
+    {   
+        id:53,
         image:cw2,
-        // name:"Squid Game"
+        name:"Ethnic",
+        new_price: 50.0,
+        old_price: 80.5,
+        category:"genz",
     },
     {
+        id:54,
         image:cw3,
-        // name:"Squid Challange"
+        name:"heels",
+        new_price: 50.0,
+        old_price: 80.5,
+        category:"genz",
     },
-    {
+    {   
+        id:55,
         image:cw4,
-        // name:"Jawan"
+        name:"Skirt & top",
+        new_price: 50.0,
+        old_price: 80.5,
+        category:"kids",
     },
     {
+        id:56,
         image:cw5,
-        // name:"The Ghost"
+        name:"Mac",
+        new_price: 50.0,
+        old_price: 80.5,
+        category:"beauty",
     },
     {
+        id:57,
         image:cw6,
-        // name:"Lucifer"
+        name:"watch",
+        new_price: 50.0,
+        old_price: 80.5,
+        category:"genz",
     },
-    {
+    {   id:58,
         image:cw7,
-        // name:"The Railway MEN"
+        name:"Bag",
+        new_price: 50.0,
+        old_price: 80.5,
+        category:"genz",
     },
     {
+        id:59,
         image:cw8,
-        // name:"Young Sheldon"
+        name:"Middi",
+        new_price: 50.0,
+        old_price: 80.5,
+        category:"genz",
     },
     {
+        id:60,
         image:cw9,
-        // name:"Sacred Games"
+        name:"Middi",
+        new_price: 50.0,
+        old_price: 80.5,
+        category:"genz",
     },
     {
+        id:61,
         image:cw10,
-        // name:"Adipurush"
+        name:"skirt",
+        new_price: 50.0,
+        old_price: 80.5,
+        category:"genz",
     },
     // {
     //     image:yc11,

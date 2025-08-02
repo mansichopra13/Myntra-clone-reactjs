@@ -13,6 +13,7 @@ import women_banner from './assets/all/banner_women.png'
 import kid_banner from './assets/all/banner_kids.png'
 import Cart from './pages/Cart/Cart'
 import Footer from './components/Footer/Footer'
+import Wishlist from './pages/Wishlist/Wishlist';
 
 
 const Approutes = () => {
@@ -45,15 +46,16 @@ const Approutes = () => {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/login' element={<Login/>}/>
-        <Route path='/mens' element={<ShopCategory  banner={men_banner} category="men"/>}/>
-        <Route path='/womens' element={<ShopCategory  banner={women_banner} category="women"/>}/>
-        <Route path='/kids' element={<ShopCategory  banner={kid_banner} category="kid"/>}/>
-        {/* <Route path='/decor' element={<ShopCategory category="decor"/>}/>
+        <Route path='/mens' element={<ShopCategory  banner={men_banner} category="mens"/>}/>
+        <Route path='/womens' element={<ShopCategory  banner={women_banner} category="womens"/>}/>
+        <Route path='/kids' element={<ShopCategory  banner={kid_banner} category="kids"/>}/>
+         <Route path='/decor' element={<ShopCategory category="decor"/>}/> 
         <Route path='/beauty' element={<ShopCategory category="beauty"/>}/>
-        <Route path='/genz' element={<ShopCategory category="genz"/>}/> */}
+        <Route path='/genz' element={<ShopCategory category="genz"/>}/>
         {/* <Route path='/product' element={<Product/>}/>
         <Route path=':productId' element={<Product/>}/> */}
         <Route path='/cart' element={<Cart/>}/>
+        <Route path='/Wishlist' element={<Wishlist/>}/>
 
       </Routes>
       <Footer/>

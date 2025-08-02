@@ -13,9 +13,9 @@ const Navbar = () => {
 
     const[menu,setMenu]=useState("MEN");
 
-    useEffect(()=>{
+    // useEffect(()=>{
 
-    },[]);
+    // },[]);
 
   return (
     <>
@@ -27,8 +27,8 @@ const Navbar = () => {
             </div>
             <div className="nav-links">
                <ul className='outer' >
-                <li onClick={()=>{setMenu("men")}} > <Link style={{textDecoration:'none'}} to="/mens"> MEN </Link>{menu==="men" ? <hr/> : <></> }</li>
-                <li onClick={()=>{setMenu("women")}} > <Link style={{textDecoration:'none'}} to="/womens"> WOMEN </Link> {menu==="women" ? <hr/> : <></> }</li>
+                <li onClick={()=>{setMenu("mens")}} > <Link style={{textDecoration:'none'}} to="/mens"> MEN </Link>{menu==="mens" ? <hr/> : <></> }</li>
+                <li onClick={()=>{setMenu("womens")}} > <Link style={{textDecoration:'none'}} to="/womens"> WOMEN </Link> {menu==="womens" ? <hr/> : <></> }</li>
                 <li onClick={()=>{setMenu("kids")}} > <Link style={{textDecoration:'none'}} to="/kids"> KIDS </Link> {menu==="kids" ? <hr/> : <></> }</li>               
                 <li onClick={()=>{setMenu("decor")}} > <Link style={{textDecoration:'none'}} to="/decor"> DECOR </Link> {menu==="decor" ? <hr/> : <></> }</li>               
                 <li onClick={()=>{setMenu("beauty")}} > <Link style={{textDecoration:'none'}} to="/beauty"> BEAUTY </Link> {menu==="beauty" ? <hr/> : <></> }</li>            
@@ -58,7 +58,7 @@ const Navbar = () => {
                 <p>Profile</p>
             </div>
             <div className="wishlist-icon">
-               <FaRegHeart /><p>Wishlist</p>
+               <Link to={'/Wishlist'}><FaRegHeart /></Link><p>Wishlist</p>
             </div>
             <div className="bag-icon">
                 <Link to={'/cart'}><BsHandbag /></Link>

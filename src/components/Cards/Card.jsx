@@ -3,25 +3,20 @@ import './Card.css'
 import pcard from '../../assets/purple-cards/pcard.js'
 import wcard from '../../assets/transparent/cw.js'
 
+import {Link} from 'react-router-dom'
 
 const Card = ({ c=pcard,imagePerSlide = 5 }) => {
-
-  
-  
 
   const [index, setIndex] = useState(0);
   const totalSlides = Math.ceil(c.length / imagePerSlide);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      // modulo operator % returns the remainder after division.
-      //If you do 0 % 3 → 0
-
-      // If you do 1 % 3 → 1
-
-      // If you do 2 % 3 → 2
-
-      // If you do 3 % 3 → 0 ✅ ← this is what resets it back to start!
+      // % returns the remainder after division.
+      // 0 % 3 → 0
+      // 1 % 3 → 1
+      // 2 % 3 → 2
+      //3 % 3 → 0  resets back to start
       setIndex(prevIndex => (prevIndex + 1) % totalSlides);
     }, 3000);
 
@@ -36,7 +31,10 @@ const Card = ({ c=pcard,imagePerSlide = 5 }) => {
       {cardCount.map((card, index) => {
         return (
           <div className="card" key={index}>
-            <img src={card.image} alt="imageofcard" />
+            <Link to={card.category}>
+              <img src={card.image} alt="imageofcard" />
+            </Link>
+            
           </div>
         )
       })}

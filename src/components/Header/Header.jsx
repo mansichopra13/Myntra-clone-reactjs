@@ -14,6 +14,7 @@ import pcard from '../../assets/purple-cards/pcard.js'
 import wcard from '../../assets/transparent/cw.js';
 import ycard from '../../assets/yellow-cards/yc.js'
 import '../Cards/Card.css'
+import {Link} from 'react-router-dom'
 
 
 const Header = ({c}) => {
@@ -59,7 +60,10 @@ const Header = ({c}) => {
                     ycard.map((card,index)=>{
                        return(
                         <div className="card y" key={index}>
-                            <img src={card.image} alt="yellow" />
+                            <Link to={'/genz'}>
+                             <img src={card.image} alt="yellow" />
+                            </Link>
+                           
                         </div>
                        )
                     })

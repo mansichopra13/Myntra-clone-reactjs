@@ -13,48 +13,91 @@ import yc11 from '../../assets/yellow-cards/yc11.jpg';
 
 const ycard = [
     {
+        id:62,
         image:yc1,
-        // name:"Stylish"
+        name:"Stylish",
+        new_price: 50.0,
+        old_price: 80.5,
+        category:"genz",
     },
-    {
+    {   id:63,
         image:yc2,
-        // name:"Squid Game"
+        name:"Squid Game",
+        new_price: 50.0,
+        old_price: 80.5,
+        category:"genz",
     },
     {
+        id:64,
         image:yc3,
-        // name:"Squid Challange"
+        name:"Squid Challange",
+        new_price: 50.0,
+        old_price: 80.5,
+        category:"genz",
     },
     {
+        id:65,
         image:yc4,
-        // name:"Jawan"
+        name:"Jawan",
+        new_price: 50.0,
+        old_price: 80.5,
+        category:"genz",
     },
     {
+        id:66,
         image:yc5,
-        // name:"The Ghost"
+        name:"The Ghost",
+        new_price: 50.0,
+        old_price: 80.5,
+        category:"genz",
     },
     {
+        id:67,
         image:yc6,
-        // name:"Lucifer"
+        name:"Lucifer",
+        new_price: 50.0,
+        old_price: 80.5,
+        category:"genz",
     },
     {
+        id:68,
         image:yc7,
-        // name:"The Railway MEN"
+        name:"The Railway MEN",
+        new_price: 50.0,
+        old_price: 80.5,
+        category:"genz",
     },
     {
+        id:69,
         image:yc8,
-        // name:"Young Sheldon"
+        name:"Young Sheldon",
+        new_price: 50.0,
+        old_price: 80.5,
+        category:"genz",
     },
     {
+        id:70,
         image:yc9,
-        // name:"Sacred Games"
+        name:"Sacred Games",
+        new_price: 50.0,
+        old_price: 80.5,
+        category:"genz",
     },
     {
+        id:71,
         image:yc10,
-        // name:"Adipurush"
+        name:"Adipurush",
+        new_price: 50.0,
+        old_price: 80.5,
+        category:"genz",
     },
     {
+        id:72,
         image:yc11,
-        // name:"Sukhee"
+        name:"Sukhee",
+        new_price: 50.0,
+        old_price: 80.5,
+        category:"genz",
     },
     // {
     //     image:cardp12,

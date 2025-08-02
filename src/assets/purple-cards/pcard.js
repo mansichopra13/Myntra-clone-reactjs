@@ -16,65 +16,129 @@ import cardp15 from '../purple-cards/cardp15.png';
 
 
 const pcard = [
-    {
+    {   
+        
         image:cardp1,
-        // name:"Stylish"
+        name:"Stylish",
+        category:"womens",
+        new_price: 50.0,
+        old_price: 80.5,
+        id:37,
     },
     {
         image:cardp2,
-        // name:"Squid Game"
+        name:"Formal Shoes",
+        category:"mens",
+        new_price: 50.0,
+        old_price: 80.5,
+        id:38,
     },
     {
         image:cardp3,
-        // name:"Squid Challange"
+        name:"Smart Shirts",
+        category:"womens",
+        new_price: 50.0,
+        old_price: 80.5,
+        id:39,
     },
     {
         image:cardp4,
-        // name:"Jawan"
+        name:"Sports Shoes",
+        category:"mens",
+        new_price: 50.0,
+        old_price: 80.5,
+        id:40,
     },
     {
         image:cardp5,
-        // name:"The Ghost"
+        name:"Bedsheet",
+        category:"decor",
+        new_price: 50.0,
+        old_price: 80.5,
+        id:41,
     },
     {
         image:cardp6,
-        // name:"Lucifer"
+        name:"Shorts",
+        category:"mens",
+        new_price: 50.0,
+        old_price: 80.5,
+        id:42,
     },
     {
         image:cardp7,
-        // name:"The Railway MEN"
+        name:"Kurtas",
+        category:"womens",
+        new_price: 50.0,
+        old_price: 80.5,
+        id:43,
     },
     {
         image:cardp8,
-        // name:"Young Sheldon"
+        name:"Flats",
+        category:"womens",
+        new_price: 50.0,
+        old_price: 80.5,
+        id:44,
     },
     {
         image:cardp9,
-        // name:"Sacred Games"
+        name:"handbags",
+        category:"womens",
+        new_price: 50.0,
+        old_price: 80.5,
+        id:45,
     },
     {
         image:cardp10,
-        // name:"Adipurush"
+        name:"Casual Shoes",
+        category:"womens",
+        new_price: 50.0,
+        old_price: 80.5,
+        id:46,
     },
     {
         image:cardp11,
-        // name:"Sukhee"
+        name:"Lotions",
+        category:"beauty",
+        new_price: 50.0,
+        old_price: 80.5,
+        id:47,
     },
     {
         image:cardp12,
-        // name:"Mission Ganj"
+        name:"backpacks",
+        category:"genz",
+        new_price: 50.0,
+        old_price: 80.5,
+        id:48,
     },
     {
         image:cardp13,
-        // name:"Leo"
+        name:"Trousers",
+        category:"genz",
+        new_price: 50.0,
+        old_price: 80.5,
+        id:49,
+        
     },
     {
         image:cardp14,
-        // name:"All of Us Are Dead"
+        name:"bb cream",
+        category:"beauty",
+        new_price: 50.0,
+        old_price: 80.5,
+        id:50,
+        
     },
      {
         image:cardp15,
-        // name:"All of Us Are Dead"
+        name:"heels",
+        category:"genz",
+        new_price: 50.0,
+        old_price: 80.5,
+        id:51,
+        
     },
 ]
 
