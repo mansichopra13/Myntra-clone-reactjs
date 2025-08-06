@@ -27,12 +27,12 @@ const Navbar = () => {
             </div>
             <div className="nav-links">
                <ul className='outer' >
-                <li onClick={()=>{setMenu("mens")}} > <Link style={{textDecoration:'none'}} to="/mens"> MEN </Link>{menu==="mens" ? <hr/> : <></> }</li>
-                <li onClick={()=>{setMenu("womens")}} > <Link style={{textDecoration:'none'}} to="/womens"> WOMEN </Link> {menu==="womens" ? <hr/> : <></> }</li>
-                <li onClick={()=>{setMenu("kids")}} > <Link style={{textDecoration:'none'}} to="/kids"> KIDS </Link> {menu==="kids" ? <hr/> : <></> }</li>               
-                <li onClick={()=>{setMenu("decor")}} > <Link style={{textDecoration:'none'}} to="/decor"> DECOR </Link> {menu==="decor" ? <hr/> : <></> }</li>               
-                <li onClick={()=>{setMenu("beauty")}} > <Link style={{textDecoration:'none'}} to="/beauty"> BEAUTY </Link> {menu==="beauty" ? <hr/> : <></> }</li>            
-                <li onClick={()=>{setMenu("genz")}} > <Link style={{textDecoration:'none'}} to="/genz"> GENZ </Link> {menu==="genz" ? <hr/> : <></> }</li>
+                <li onClick={()=>{setMenu("mens")}} > <Link style={{textDecoration:'none', color:'black'}} to="/mens"> MEN </Link>{menu==="mens" ? <hr/> : <></> }</li>
+                <li onClick={()=>{setMenu("womens")}} > <Link style={{textDecoration:'none', color:'black'}} to="/womens"> WOMEN </Link> {menu==="womens" ? <hr/> : <></> }</li>
+                <li onClick={()=>{setMenu("kids")}} > <Link style={{textDecoration:'none', color:'black'}} to="/kids"> KIDS </Link> {menu==="kids" ? <hr/> : <></> }</li>               
+                <li onClick={()=>{setMenu("decor")}} > <Link style={{textDecoration:'none', color:'black'}} to="/decor"> DECOR </Link> {menu==="decor" ? <hr/> : <></> }</li>               
+                <li onClick={()=>{setMenu("beauty")}} > <Link style={{textDecoration:'none', color:'black'}} to="/beauty"> BEAUTY </Link> {menu==="beauty" ? <hr/> : <></> }</li>            
+                <li onClick={()=>{setMenu("genz")}} > <Link style={{textDecoration:'none', color:'black'}} to="/genz"> GENZ </Link> {menu==="genz" ? <hr/> : <></> }</li>
 
                 <li className='nav-item'>STUDIO<sup><b>NEW</b>
                 </sup>
