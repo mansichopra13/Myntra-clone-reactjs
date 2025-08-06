@@ -42,7 +42,7 @@ const Placeorder = () => {
         <div className="cart">
           
           
-          <button onClick={()=>navigate('/order')}>PROCEED TO CHECKOUT</button>
+          <button onClick={()=>navigate('/order')}>PROCEED TO PAYMENT</button>
         </div>
 
 

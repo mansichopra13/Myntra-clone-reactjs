@@ -42,7 +42,7 @@ const Navbar = () => {
                         <li>Footwear</li>
                         <li>Inner & Sleepwear</li>
                         <li>Indian and festive wear</li>
-                    </ul>
+                </ul>
                 </li>
                </ul>
             </div>

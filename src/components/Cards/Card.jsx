@@ -17,12 +17,15 @@ const Card = ({ c=pcard,imagePerSlide = 5 }) => {
       // 1 % 3 → 1
       // 2 % 3 → 2
       //3 % 3 → 0  resets back to start
+      //prevIndex+1 = coz we need to start from 1 like 1 to 5 then again prevIndex+1 i.e 5+1 6to10 and so on 
       setIndex(prevIndex => (prevIndex + 1) % totalSlides);
     }, 3000);
 
     return () => clearInterval(interval);
   }, [totalSlides]);
 
+  // 1*5=start
+  // count=pcard.slice(1,1+5)
   const start = index * imagePerSlide;
   const cardCount = c.slice(start, start + imagePerSlide);
 
