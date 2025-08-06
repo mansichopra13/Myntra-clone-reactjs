@@ -81,7 +81,7 @@ import yc11 from '../yellow-cards/yc11.jpg';
 
 let all_product = [
   {
-    id: 1,
+    id: "1",
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "womens",
     image: p1_img,
@@ -89,7 +89,7 @@ let all_product = [
     old_price: 80.5,
   },
   {
-    id: 2,
+    id: "2",
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "womens",
     image: p2_img,
@@ -97,7 +97,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 3,
+    id: "3",
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "womens",
     image: p3_img,
@@ -105,7 +105,7 @@ let all_product = [
     old_price: 100.5,
   },
   {
-    id: 4,
+    id: "4",
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "womens",
     image: p4_img,
@@ -113,7 +113,7 @@ let all_product = [
     old_price: 150.0,
   },
   {
-    id: 5,
+    id: "5",
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "womens",
     image: p5_img,
@@ -121,7 +121,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 6,
+    id: "6",
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "womens",
     image: p6_img,
@@ -129,7 +129,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 7,
+    id: "7",
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "womens",
     image: p7_img,
@@ -137,7 +137,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 8,
+    id:"8" ,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "womens",
     image: p8_img,
@@ -145,7 +145,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 9,
+    id: "9",
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "womens",
     image: p9_img,
@@ -153,7 +153,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 10,
+    id: "10",
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "womens",
     image: p10_img,
@@ -161,7 +161,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 11,
+    id: "11",
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "womens",
     image: p11_img,
@@ -169,7 +169,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 12,
+    id: "12",
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "womens",
     image: p12_img,
@@ -177,7 +177,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 13,
+    id: "13",
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "mens",
     image: p13_img,
@@ -185,7 +185,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 14,
+    id: "14",
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "mens",
     image: p14_img,
@@ -193,7 +193,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 15,
+    id: "15",
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "mens",
     image: p15_img,
@@ -201,7 +201,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 16,
+    id: "16",
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "mens",
     image: p16_img,
@@ -209,7 +209,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 17,
+    id: "17",
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "mens",
     image: p17_img,
@@ -217,7 +217,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 18,
+    id: "18",
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "mens",
     image: p18_img,
@@ -225,7 +225,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 19,
+    id: "19",
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "mens",
     image: p19_img,
@@ -233,7 +233,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 20,
+    id: "20",
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "mens",
     image: p20_img,
@@ -241,7 +241,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 21,
+    id: "21",
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "mens",
     image: p21_img,
@@ -249,7 +249,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 22,
+    id: "22",
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "mens",
     image: p22_img,
@@ -257,7 +257,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 23,
+    id: "23",
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "mens",
     image: p23_img,
@@ -265,7 +265,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 24,
+    id: "24",
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "mens",
     image: p24_img,
@@ -273,7 +273,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 25,
+    id: "25",
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kids",
     image: p25_img,
@@ -281,7 +281,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 26,
+    id: "26",
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kids",
     image: p26_img,
@@ -289,7 +289,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 27,
+    id: "27",
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kids",
     image: p27_img,
@@ -297,7 +297,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 28,
+    id: "28",
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kids",
     image: p28_img,
@@ -305,7 +305,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 29,
+    id: "29",
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kids",
     image: p29_img,
@@ -313,7 +313,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 30,
+    id: "30",
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kids",
     image: p30_img,
@@ -321,7 +321,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 31,
+    id: "31",
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kids",
     image: p31_img,
@@ -329,7 +329,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 32,
+    id: "32",
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kids",
     image: p32_img,
@@ -337,7 +337,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 33,
+    id: "33",
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kids",
     image: p33_img,
@@ -345,7 +345,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 34,
+    id: "34",
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kids",
     image: p34_img,
@@ -353,7 +353,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 35,
+    id: "35",
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kids",
     image: p35_img,
@@ -361,7 +361,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 36,
+    id: "36",
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kids",
     image: p36_img,
@@ -378,7 +378,7 @@ let all_product = [
           category:"womens",
           new_price: 50.0,
           old_price: 80.5,
-          id:37,
+          id:"37",
       },
       {
           image:cardp2,
@@ -386,7 +386,7 @@ let all_product = [
           category:"mens",
           new_price: 50.0,
           old_price: 80.5,
-          id:38,
+          id:"38",
       },
       {
           image:cardp3,
@@ -394,7 +394,7 @@ let all_product = [
           category:"womens",
           new_price: 50.0,
           old_price: 80.5,
-          id:39,
+          id:"39",
       },
       {
           image:cardp4,
@@ -402,7 +402,7 @@ let all_product = [
           category:"mens",
           new_price: 50.0,
           old_price: 80.5,
-          id:40,
+          id:"40",
       },
       {
           image:cardp5,
@@ -410,7 +410,7 @@ let all_product = [
           category:"decor",
           new_price: 50.0,
           old_price: 80.5,
-          id:41,
+          id:"41",
       },
       {
           image:cardp6,
@@ -418,7 +418,7 @@ let all_product = [
           category:"mens",
           new_price: 50.0,
           old_price: 80.5,
-          id:42,
+          id:"42",
       },
       {
           image:cardp7,
@@ -426,7 +426,7 @@ let all_product = [
           category:"womens",
           new_price: 50.0,
           old_price: 80.5,
-          id:43,
+          id:"43",
       },
       {
           image:cardp8,
@@ -434,7 +434,7 @@ let all_product = [
           category:"womens",
           new_price: 50.0,
           old_price: 80.5,
-          id:44,
+          id:"44",
       },
       {
           image:cardp9,
@@ -442,7 +442,7 @@ let all_product = [
           category:"womens",
           new_price: 50.0,
           old_price: 80.5,
-          id:45,
+          id:"45",
       },
       {
           image:cardp10,
@@ -450,7 +450,7 @@ let all_product = [
           category:"womens",
           new_price: 50.0,
           old_price: 80.5,
-          id:46,
+          id:"46",
       },
       {
           image:cardp11,
@@ -458,7 +458,7 @@ let all_product = [
           category:"beauty",
           new_price: 50.0,
           old_price: 80.5,
-          id:47,
+          id:"47",
       },
       {
           image:cardp12,
@@ -466,7 +466,7 @@ let all_product = [
           category:"genz",
           new_price: 50.0,
           old_price: 80.5,
-          id:48,
+          id:"48",
       },
       {
           image:cardp13,
@@ -474,7 +474,7 @@ let all_product = [
           category:"genz",
           new_price: 50.0,
           old_price: 80.5,
-          id:49,
+          id:"49",
           
       },
       {
@@ -483,7 +483,7 @@ let all_product = [
           category:"beauty",
           new_price: 50.0,
           old_price: 80.5,
-          id:50,
+          id:"50",
           
       },
        {
@@ -492,13 +492,13 @@ let all_product = [
           category:"genz",
           new_price: 50.0,
           old_price: 80.5,
-          id:51,
+          id:"51",
           
       },
 
       //transparent cards
 
-         {   id:52,
+         {   id:"52",
               image:cw1,
               name:"Shirt",
               new_price: 50.0,
@@ -506,7 +506,7 @@ let all_product = [
               category:"genz",
           },
           {   
-              id:53,
+              id:"53",
               image:cw2,
               name:"Ethnic",
               new_price: 50.0,
@@ -514,7 +514,7 @@ let all_product = [
               category:"genz",
           },
           {
-              id:54,
+              id:"54",
               image:cw3,
               name:"heels",
               new_price: 50.0,
@@ -522,7 +522,7 @@ let all_product = [
               category:"genz",
           },
           {   
-              id:55,
+              id:"55",
               image:cw4,
               name:"Skirt & top",
               new_price: 50.0,
@@ -530,7 +530,7 @@ let all_product = [
               category:"genz",
           },
           {
-              id:56,
+              id:"56",
               image:cw5,
               name:"Mac",
               new_price: 50.0,
@@ -538,14 +538,14 @@ let all_product = [
               category:"genz",
           },
           {
-              id:57,
+              id:"57",
               image:cw6,
               name:"watch",
               new_price: 50.0,
               old_price: 80.5,
               category:"genz",
           },
-          {   id:58,
+          {   id:"58",
               image:cw7,
               name:"Bag",
               new_price: 50.0,
@@ -553,23 +553,23 @@ let all_product = [
               category:"genz",
           },
           {
-              id:59,
+              id:"59",
               image:cw8,
               name:"Middi",
               new_price: 50.0,
               old_price: 80.5,
               category:"genz",
           },
+          // {
+          //     id:60,
+          //     image:cw9,
+          //     name:"Middi",
+          //     new_price: 50.0,
+          //     old_price: 80.5,
+          //     category:"genz",
+          // },
           {
-              id:60,
-              image:cw9,
-              name:"Middi",
-              new_price: 50.0,
-              old_price: 80.5,
-              category:"genz",
-          },
-          {
-              id:61,
+              id:"61",
               image:cw10,
               name:"skirt",
               new_price: 50.0,
@@ -579,14 +579,14 @@ let all_product = [
 
           //yellow cards
            {
-        id:62,
+        id:"62",
         image:yc1,
         name:"Stylish",
         new_price: 50.0,
         old_price: 80.5,
         category:"genz",
     },
-    {   id:63,
+    {   id:"63",
         image:yc2,
         name:"Squid Game",
         new_price: 50.0,
@@ -594,7 +594,7 @@ let all_product = [
         category:"genz",
     },
     {
-        id:64,
+        id:"64",
         image:yc3,
         name:"Squid Challange",
         new_price: 50.0,
@@ -602,7 +602,7 @@ let all_product = [
         category:"genz",
     },
     {
-        id:65,
+        id:"65",
         image:yc4,
         name:"Jawan",
         new_price: 50.0,
@@ -610,7 +610,7 @@ let all_product = [
         category:"genz",
     },
     {
-        id:66,
+        id:"66",
         image:yc5,
         name:"The Ghost",
         new_price: 50.0,
@@ -618,7 +618,7 @@ let all_product = [
         category:"genz",
     },
     {
-        id:67,
+        id:"67",
         image:yc6,
         name:"Lucifer",
         new_price: 50.0,
@@ -626,7 +626,7 @@ let all_product = [
         category:"genz",
     },
     {
-        id:68,
+        id:"68",
         image:yc7,
         name:"The Railway MEN",
         new_price: 50.0,
@@ -634,7 +634,7 @@ let all_product = [
         category:"genz",
     },
     {
-        id:69,
+        id:"69",
         image:yc8,
         name:"Young Sheldon",
         new_price: 50.0,
@@ -642,29 +642,29 @@ let all_product = [
         category:"genz",
     },
     {
-        id:70,
+        id:"70",
         image:yc9,
         name:"Sacred Games",
         new_price: 50.0,
         old_price: 80.5,
         category:"genz",
     },
-    {
-        id:71,
-        image:yc10,
-        name:"Adipurush",
-        new_price: 50.0,
-        old_price: 80.5,
-        category:"genz",
-    },
-    {
-        id:72,
-        image:yc11,
-        name:"Sukhee",
-        new_price: 50.0,
-        old_price: 80.5,
-        category:"genz",
-    },
+    // {
+    //     id:71,
+    //     image:yc10,
+    //     name:"Adipurush",
+    //     new_price: 50.0,
+    //     old_price: 80.5,
+    //     category:"genz",
+    // },
+    // {
+    //     id:72,
+    //     image:yc11,
+    //     name:"Sukhee",
+    //     new_price: 50.0,
+    //     old_price: 80.5,
+    //     category:"genz",
+    // },
 ];
 
 export default all_product;

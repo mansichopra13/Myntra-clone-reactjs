@@ -14,6 +14,7 @@ import kid_banner from './assets/all/banner_kids.png'
 import Cart from './pages/Cart/Cart'
 import Footer from './components/Footer/Footer'
 import Wishlist from './pages/Wishlist/Wishlist';
+import Placeorder from './pages/Placeorder/Placeorder'
 
 
 const Approutes = () => {
@@ -41,7 +42,7 @@ const Approutes = () => {
     <>
     {/* <BrowserRouter> */}
     
-      <Navbar />
+      
 
       <Routes>
         <Route path='/' element={<Home/>}/>
@@ -55,6 +56,7 @@ const Approutes = () => {
         {/* <Route path='/product' element={<Product/>}/>
         <Route path=':productId' element={<Product/>}/> */}
         <Route path='/cart' element={<Cart/>}/>
+        <Route path='/order' element={<Placeorder/>}/>
         <Route path='/Wishlist' element={<Wishlist/>}/>
 
       </Routes>

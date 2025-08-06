@@ -3,6 +3,7 @@ import './Login.css'
 import loginn from '../../assets/loginn.jpg'
 import { login, signup } from '../../Firbase'
 import loadingImg from '../../assets/loadingImg.gif'
+import Navbar from '../../components/Navbar/Navbar'
 // import { useNavigate } from 'react-router-dom';
 
 // complete after routing
@@ -40,13 +41,19 @@ const Login = () => {
 
 
   return (
+    
+
 
     loading ? <div className="login-spinner">
       <img src={loadingImg} alt="" />
     </div> :
 
       <div className="login">
+    <Navbar />
+
         <div className="log">
+    
+
           <img src={loginn} alt="" />
 
 

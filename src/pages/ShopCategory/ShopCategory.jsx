@@ -3,6 +3,7 @@ import './ShopCategory.css'
 import {ShopContext} from '../../context/ShopContext'
 import Item from '../../components/Item/Item'
 import dropdown_icon from '../../assets/all/dropdown_icon.png'
+import Navbar from '../../components/Navbar/Navbar'
 
 const ShopCategory = (props) => {
 
@@ -10,6 +11,8 @@ const ShopCategory = (props) => {
 
   return (
     <div className='shop-category'>
+    <Navbar />
+
         <img className="shopcategory-banner" src={props.banner} alt="" />
         <div className="shopcategory-indexSort">
             <p>
